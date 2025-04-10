@@ -1,0 +1,24 @@
+// Required
+@import "bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #4bd2e9;
+
+
+
+
+@import "bootstrap/scss/bootstrap";
+
+
+
+
+html, body {
+    font-family: 'Akshar', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.h-full {
+    height: 100vh;
+}

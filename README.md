@@ -1,2 +1,2 @@
-# Laravel12-Bootstrap5-template
-A template for laravel 12+ integrted with bootstrap 5.3+ with custom Authpages utilising laravel's fortify
+# Laravel12 & Bootstrap5 Template
+A template for Laravel 12+ integrated with Bootstrap 5.3+ with custom AUTH pages utilising Laravel's fortify
