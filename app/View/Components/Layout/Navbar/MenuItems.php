@@ -1,20 +1,19 @@
 <?php
 
-namespace App\View\Components\Layout;
+namespace App\View\Components\Layout\Navbar;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Navbar extends Component
+class MenuItems extends Component
 {
     /**
      * Create a new component instance.
      */
-
     public function __construct()
     {
-
+        //
     }
 
     /**
@@ -22,6 +21,6 @@ class Navbar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.layout.navbar');
+        return view('components.layout.navbar.menu-items');
     }
 }

@@ -1,1 +1,1 @@
-your-logo
+<span class="fs-1">Your Logo</span>

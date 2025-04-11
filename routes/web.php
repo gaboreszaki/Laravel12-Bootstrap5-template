@@ -12,4 +12,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::view('/dashboard', 'dashboard')->name('dashboard');
 
+    Route::prefix('user')->group(function () {
+        Route::view('/settings', 'user.settings')->name('settings');
+    });
+
 });

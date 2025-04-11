@@ -3,7 +3,7 @@
 <x-layout.head />
 <body>
 <x-layout.navbar />
-<div class="container-fluid">
+<div class="container-fluid pt-3">
     {{$slot}}
 </div>
 

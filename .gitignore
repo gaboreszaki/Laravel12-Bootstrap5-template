@@ -16,18 +16,30 @@ public_html/storage
 public_html/hot
 
 storage/*.key
-.env
 Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
 
+# Laravel 12
 /public/build
 /storage/pail
+/storage/logs/*.log
+
+# debug bar
+/storage/debugbar/*.json
+
+
+# Env files
+.env
 .env.backup
 .env.production
+
+# Other
 .phpactor.json
 auth.json
+
+# Phpunit
+.phpunit.result.cache
 
 # Editors
 .editorconfig
